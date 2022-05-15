@@ -4,6 +4,6 @@ services:
     image: thecatfishy/ict4d:1.0.7
     container_name: ict4d
     ports:
-      - "0.0.0.0:9080:9080"
+      - "0.0.0.0:9080:9081"
     restart: always
     
