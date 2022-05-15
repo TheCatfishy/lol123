@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  ict4d:
+    image: thecatfishy/ict4d:1.0.6
+    container_name: ict4d
+    ports:
+      - "0.0.0.0:9080:9080"
+    restart: always
+    
